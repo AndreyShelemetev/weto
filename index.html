@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@200;400&family=Plus+Jakarta+Sans:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@200;400&family=Plus+Jakarta+Sans:wght@500&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" class="loader">
+        <defs>
+            <path id="move-path" d="M102.546 83.5C109.859 70.8333 128.141 70.8333 135.454 83.5L157.971 122.5C165.284 135.167 156.143 151 141.517 151H96.4833C81.8571 151 72.7158 135.167 80.0289 122.5L102.546 83.5Z" fill="#D9D9D9"></path>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"></feGaussianBlur>
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -32"></feColorMatrix>
+            </filter>
+        </defs>
+        <g filter="url(#goo)">
+            <circle cx="119" cy="74" r="20" stroke="#6f8191" stroke-width="8"></circle>
+            <circle cx="79" cy="141" r="20" stroke="#6f8191" stroke-width="8"></circle>
+            <circle cx="157" cy="141" r="20" stroke="#6f8191" stroke-width="8"></circle>
+            <circle cx="0" cy="0" r="14" fill="#6f8191">
+                <animateMotion path="M102.546 83.5C109.859 70.8333 128.141 70.8333 135.454 83.5L157.971 122.5C165.284 135.167 156.143 151 141.517 151H96.4833C81.8571 151 72.7158 135.167 80.0289 122.5L102.546 83.5Z" dur="2s" repeatCount="indefinite"></animateMotion>
+            </circle> 
+        </g>
+    </svg>        
+    <div class="conteiner">
+        <div class="block1">
+            <div class="header">
+                <div class="head_main">
+                    <p class="ttl_header"><span style="color:#2563EB;">/</span>ITBLOCKS</p>
+                    <nav class="header_nav">
+                        <ul class="header_menu">
+                            <li class="menu_item">Главная</li>
+                            <a href="#yakor2" class="prokrutkaslide">
+                                <li class="menu_item">Преподаватели</li>
+                            </a>
+                            <a href="#yakor1" class="prokrutkaslide">
+                                <li class="menu_item">Записаться</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <div class="menu-burger_header">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="main_block1">
+                <div class="box1_block1">
+                    <p class="ttl_block1">Профессия<br>«Бизнес-аналитик»</p>
+                    <ul class="menu_block1">
+                        <li class="menu_item_block1">Научитесь выявлять проблемы<br>бизнеса с помощью данных и
+                            находить <br>решения для роста</li>
+                        <li class="menu_item_block1">Будете много практиковаться и оформите <br>4 кейса для
+                            портфолио</li>
+                        <li class="menu_item_block1">Получите поддержку в поиске работы <br>или стажировки</li>
+                    </ul>
+                    <a href="#yakor1" class="prokrutkaslide">
+                        <button class="btn_block1">Записаться</button>
+                    </a>
+                </div>
+                <img src="img/img_block1.png" class="img_block1" alt="">
+            </div>
+        </div>
+        <div class="block2">
+            <p class="ttl_block2" id="yakor2">Преподаватели курса</p>
+            <div class="main_box_block2">
+                <div class="minibox_block2">
+                    <div class="minibox_group_photo">
+                        <img src="img/minibox_photo1.png" class="photo" alt="">
+                        <a href="https://web.telegram.org/z/">
+                            <img src="img/telegram.png" class="soc_web" alt="">
+                        </a>
+                    </div>
+                    <div class="minibox_group_who">
+                        <p class="ttl_minibox">Павел Бородин</p>
+                        <p class="txt_minibox">Директор и основатель ITBLOCKS,<br>автор курса</p>
+                    </div>
+                </div>
+                <div class="minibox_block2">
+                    <div class="minibox_group_photo">
+                        <img src="img/minibox_photo2.png" class="photo" alt="">
+                        <a href="https://ru-ru.facebook.com/">
+                            <img src="img/facebook.png" class="soc_web" alt="">
+                        </a>
+                    </div>
+                    <div class="minibox_group_who">
+                        <p class="ttl_minibox">Дмитрий Соколов</p>
+                        <p class="txt_minibox">Ведущий бизнес-аналитик, эксперт<br>в области аналитики данных</p>
+                    </div>
+                </div>
+                <div class="minibox_block2">
+                    <div class="minibox_group_photo">
+                        <img src="img/minibox_photo3.png" class="photo" alt="">
+                        <a href="https://vk.com/">
+                            <img src="img/vkontakte.png" class="soc_web" alt="">
+                        </a>
+                    </div>
+                    <div class="minibox_group_who">
+                        <p class="ttl_minibox">Наталья Юрьева</p>
+                        <p class="txt_minibox">Региональный менеджер,<br>эксперт по мотивации в обучении</p>
+                    </div>
+                </div>
+                <div class="minibox_block2">
+                    <div class="minibox_group_photo">
+                        <img src="img/minibox_photo4.png" class="photo" alt="">
+                        <a href="https://vk.com/">
+                            <img src="img/vkontakte.png" class="soc_web" alt="">
+                        </a>
+                    </div>
+                    <div class="minibox_group_who">
+                        <p class="ttl_minibox">Олег Бурнашев</p>
+                        <p class="txt_minibox">Руководитель группы<br>лидогенерации в ITBLOCKS</p>
+                    </div>
+                </div>
+                <div class="minibox_block2">
+                    <div class="minibox_group_photo">
+                        <img src="img/minibox_photo5.png" class="photo" alt="">
+                        <a href="https://web.telegram.org/z/">
+                            <img src="img/telegram.png" class="soc_web" alt="">
+                        </a>
+                    </div>
+                    <div class="minibox_group_who">
+                        <p class="ttl_minibox">Ирина Караваева</p>
+                        <p class="txt_minibox">Директор по бизнес-развитию<br>в ITBLOCKS</p>
+                    </div>
+                </div>
+                <div class="minibox_block2">
+                    <div class="minibox_group_photo">
+                        <img src="img/minibox_photo6.png" class="photo" alt="">
+                        <a href="https://web.telegram.org/z/">
+                            <img src="img/telegram.png" class="soc_web" alt="">
+                        </a>
+                    </div>
+                    <div class="minibox_group_who">
+                        <p class="ttl_minibox">Вадим Петров</p>
+                        <p class="txt_minibox">Руководитель продуктового<br>маркетинга, Agile-коуч</p>
+                    </div>
+                </div>
+            </div>
+            <div class="entry" id="yakor1">
+                <div class="entry_content">
+                    <div class="entry__entry_text">
+                        <h2 class="entry__title">Записаться</h2>
+                        <p class="text_entry">Заполните форму заявки, и куратор курса свяжется с вами в течение дня.
+                        </p>
+                    </div>
+                    <div class="entry_inputs">
+                        <form id="tg">
+                            <input type="text" class="entry_input" placeholder="Имя" name="name">
+                            <input type="text" class="entry_input" placeholder="Email" name="email">
+                            <input type="tel" class="entry_input" placeholder="Телефон" name="tel">
+                            <button type="submit" id="btn_submit" class="entry_button">Записаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p class="ttl_footer"><span style="color:#2563EB;">/</span>ITBLOCKS</p>
+                <p class="txt_footer">© 2023, Все права защищены</p>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="scroll_btn" id="scroll">
+        <div class="text">
+            <span>Наверх</span>
+        </div>
+        <div class="clone">
+            <span>Наверх</span>
+        </div>
+        <svg width="20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+        </svg>
+    </button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="js/script_bek.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script_yak.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</body>
+
+</html>
